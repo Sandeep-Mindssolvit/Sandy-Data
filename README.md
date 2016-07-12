@@ -6,4 +6,12 @@ different types of frameworks:
 1. Hybrid framework
 2. Data-Drivern Framework
 3. Method-drivern framework
+4. Input driven framework
+
+How to open the browser in selenium web driver?
+
+WebDriver driver = new FirefoxDriver();
+driver.manage().window().maximize();
+driver.get("Http://www.google.co.in");
+
 
